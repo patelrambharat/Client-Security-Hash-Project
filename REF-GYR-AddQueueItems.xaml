@@ -85,13 +85,13 @@
       <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="REF_CSH_AddQueueItems" sap:VirtualizedContainerService.HintSize="632.6666666666666,292" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="REF_CSH_AddQueueItems" sap:VirtualizedContainerService.HintSize="1024,475.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:AddQueueItem TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="Adding the Queue Item for the Performer Queue&#xD;&#xA;WIID , Status and Type" DisplayName="Add Queue Item" FolderPath="Dev" sap:VirtualizedContainerService.HintSize="450,102" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="CSH-PerformerQueue" Reference="[in_TranItem(&quot;WIID&quot;).ToString]">
+    <ui:AddQueueItem TimeoutMS="{x:Null}" sap2010:Annotation.AnnotationText="Adding the Queue Item for the Performer Queue&#xA;WIID , Status and Type" DisplayName="Add Queue Item" FolderPath="Dev" sap:VirtualizedContainerService.HintSize="450,285.3333333333333" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="GYR-PerformerQueue" Reference="[in_TranItem(&quot;WIID&quot;).ToString]">
       <ui:AddQueueItem.ItemInformation>
         <InArgument x:TypeArguments="x:String" x:Key="WIID">[in_TranItem("WIID").ToString]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="Type">[in_TranItem("Type").ToString]</InArgument>
@@ -100,7 +100,7 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>

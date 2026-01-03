@@ -122,7 +122,7 @@
       <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="REF_CSH_ExtractTable" sap:VirtualizedContainerService.HintSize="592,600" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="REF_CSH_ExtractTable" sap:VirtualizedContainerService.HintSize="988,600" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -157,7 +157,7 @@
                 <OutArgument x:TypeArguments="sd:DataTable">[io_dt_ExtractDataTable]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="sd:DataTable">[io_dt_ExtractDataTable.AsEnumerable.Where(Function(x) x("Type").Equals("WI5")).CopyToDataTable]</InArgument>
+                <InArgument x:TypeArguments="sd:DataTable">[io_dt_ExtractDataTable.AsEnumerable.Where(Function(x) x("Type").Equals("WI4")).CopyToDataTable]</InArgument>
               </Assign.Value>
             </Assign>
           </Sequence>
